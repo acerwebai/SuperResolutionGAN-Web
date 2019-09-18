@@ -1,5 +1,5 @@
 const srgan_96_4 = {
-  modelName: 'SRGAN 96x96 x4',
+  modelName: 'SRGAN 96x96',
   inputSize: [96, 96, 3],
   outputSize: [384, 384, 3],
   scale: 4,
@@ -47,7 +47,7 @@ const srgan_120_90_4 = {
 };
 
 const srgan_200_150_4 = {
-  modelName: 'SRGAN 200x150 x4',
+  modelName: 'SRGAN 200x150',
   inputSize: [150, 200, 3],
   outputSize: [600, 800, 3],
   scale: 4,
@@ -63,7 +63,7 @@ const srgan_320_180_4 = {
 };
 
 const srgan_480_270_4 = {
-  modelName: 'SRGAN 480x270 x4',
+  modelName: 'SRGAN 480x270',
   inputSize: [270, 480, 3],
   outputSize: [1080, 1920, 3],
   scale: 4,
