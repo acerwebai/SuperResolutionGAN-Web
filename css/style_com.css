@@ -24,6 +24,10 @@ a {
 	text-decoration: none;
 }
 */
+nav {
+ justify-content: center !important;
+}
+
 
 img {
 	max-width: 100%;
@@ -52,6 +56,27 @@ header h1 {
 }
 */
 
+.progress-label {
+	float: left;
+	margin-right: 1em;
+	height: 1rem;
+	font-size: .75rem;
+}
+
+.top-margin {
+	margin-top: 10px;
+}
+
+canvas {
+	width: 768px;
+}
+
+@media (max-width: 800px) {
+	canvas {
+		width: 300px;
+	}
+}
+
 @media only screen and (min-width: 768px) {
 	/*
   header {
@@ -69,7 +94,7 @@ header h1 {
 	.cd-image-container {
 		position: relative;
 		width: 90%;
-		max-width: 512px;
+		max-width: 768px;
 		margin: 0em auto;
 	}
 	.cd-image-container img {
