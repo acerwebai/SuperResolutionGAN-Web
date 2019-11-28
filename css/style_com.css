@@ -162,7 +162,7 @@ header h1 {
 		left: 0;
 	}
 	.is-visible .cd-resize-img {
-		width: 50%;
+		width: 47%;
 		/* bounce in animation of the modified image */
 		-webkit-animation: cd-bounce-in 0.7s;
 		-moz-animation: cd-bounce-in 0.7s;
@@ -207,9 +207,9 @@ header h1 {
 		height: 44px;
 		width: 44px;
 		/* center the element */
-		left: 50%;
+		left: 47%;
 		top: 50%;
-		margin-left: -22px;
+		margin-left:-22px;
 		margin-top: -22px;
 		border-radius: 50%;
 		background: #84ba3f url("../images/cd-arrows.svg") no-repeat center center;

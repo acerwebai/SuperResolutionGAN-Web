@@ -86,6 +86,26 @@
 								<ul>
 
 									<li>
+										<a class="button x-small" target="_blank"> <i class="fa fa-code"></i> </a>
+									</li>
+
+
+									<li>
+										<a class="button x-small" target="_blank"> <i class="fa fa-windows"></i> </a>
+									</li>
+									<li>
+										<a class="button x-small" target="_blank"> <i class="fa fa-android"></i> </a>
+									</li>
+									<li>
+										<a class="button x-small ncs" target="_blank"> <img src="images/icon_AIot.svg" class="svg"/> </a>
+									</li>
+									<li>
+
+										<a class="button x-small" target="_blank"> <i class="fa fa-github"></i> </a>
+									</li>
+
+									<!--
+									<li>
 										<a class="button x-small" href="#" target="_blank"> <i class="fa fa-code"></i> </a>
 									</li>
 
@@ -103,6 +123,7 @@
 
 										<a class="button x-small" href="#" target="_blank"> <i class="fa fa-github"></i> </a>
 									</li>
+									-->
 
 								</ul>
 							</div>
@@ -173,6 +194,21 @@
 						</div>
 					</div>
 -->
+                    <div class="" style="display: inline-flex;">
+                    <div class="image_choices">
+							<div class="image_choice_box">
+								<img class="image_choice" src='images/360_Website_image/003.jpg' onclick="document.getElementById('image').src=this.src; document.getElementById('style-name').innerText = this.alt;" alt="default" />
+							</div>
+                            <div class="image_choice_box">
+								<img class="image_choice" src='images/Holo360/pano_aamgvbvxemfmxm.jpg' onclick="document.getElementById('image').src=this.src; document.getElementById('style-name').innerText = this.alt;" alt="pano_aamgvbvxemfmxm" />
+							</div>
+                            <div class="image_choice_box">
+								<img class="image_choice" src='images/Holo360/pano_ahmppszphkhctb.jpg' onclick="document.getElementById('image').src=this.src; document.getElementById('style-name').innerText = this.alt;" alt="pano_ahmppszphkhctb" />
+							</div>
+                            <div class="image_choice_box">
+								<img class="image_choice" src='images/Holo360/pano_aqznkfgwjebqzl.jpg' onclick="document.getElementById('image').src=this.src; document.getElementById('style-name').innerText = this.alt;" alt="pano_aqznkfgwjebqzl" />
+							</div>
+					</div>
 
 					<figure class="cd-image-container">
 						<!--					<img src="images/img-original.jpg" alt="Original Image">-->
@@ -182,7 +218,7 @@
 						<div class="cd-resize-img">
 							<!-- the resizable image on top -->
 							<!--						<img src="images/img-modified.jpg" alt="Modified Image">-->
-							<img hidden id="image" crossorigin="anonymous" class="img-fluid" alt="Responsive image" src="./images/360_Website_image/003.jpg">
+							<img hidden id="image" crossorigin="anonymous" class="img-fluid" alt="Responsive image" src="images/360_Website_image/003.jpg">
 
 							<canvas id="inputCanvas" width="96" height="96"></canvas>
 							<span class="cd-image-label" data-type="modified">480x270</span>
@@ -190,12 +226,13 @@
 
 						<span class="cd-handle"></span>
 					</figure>
+                    </div>
 
 					<div class="row top-margin">
 						<div class="col"></div>
 						<div class="col" align="center">
 							<label id="button" class="btn btn-primary disabled">
-                Pick Image <input type="file" id="input" accept="image/*" hidden disabled>
+                Upload Photo <input type="file" id="input" accept="image/*" hidden disabled>
             </label>
 						</div>
 						<div class="col"></div>

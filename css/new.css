@@ -168,6 +168,12 @@ ul {
 	height: auto;
 }
 
+.image_choices{
+    width: 192px;
+    height: 384px;
+    margin-right: 5px;
+}
+
 @media (min-width: 767px){
 .dt-mt--50 {
     margin-top: -50px !important;
